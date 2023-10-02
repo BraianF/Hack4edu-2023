@@ -1,0 +1,81 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "[python]": {
+            "editor.defaultFormatter": "ms-python.black-formatter",
+            "editor.formatOnSave": true,
+            "editor.codeActionsOnSave": {
+                "source.organizeImports": true
+            },
+        },
+        "autoDocstring.docstringFormat": "pep257",
+        "autoDocstring.includeName": true,
+        "autoDocstring.startOnNewLine": true,
+        "black-formatter.importStrategy": "fromEnvironment",
+        "debug.inlineValues": "auto",
+        "editor.acceptSuggestionOnEnter": "off",
+        "editor.accessibilitySupport": "off",
+        "editor.detectIndentation": false,
+        "editor.cursorSmoothCaretAnimation": "on",
+        "editor.guides.bracketPairs": true,
+        "editor.quickSuggestions": {
+            "comments": "inline",
+            "strings": "inline"
+        },
+        "editor.suggest.preview": true,
+        "editor.tabCompletion": "on",
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.includeComments": false,
+        "editor.unicodeHighlight.includeStrings": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.unicodeHighlight.nonBasicASCII": false,
+        "explorer.autoReveal": false,
+        "explorer.copyRelativePathSeparator": "/",
+        "explorer.fileNesting.enabled": true,
+        "explorer.incrementalNaming": "smart",
+        "explorer.openEditors.visible": 1,
+        "files.simpleDialog.enable": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "git.confirmSync": false,
+        "isort.args": [
+            "--profile",
+            "black"
+        ],
+        "isort.check": true,
+        "isort.importStrategy": "fromEnvironment",
+        "material-icon-theme.folders.associations": {},
+        "pylint.importStrategy": "fromEnvironment",
+        "python.analysis.autoFormatStrings": true,
+        "python.analysis.completeFunctionParens": true,
+        "python.analysis.gotoDefinitionInStringLiteral": true,
+        "python.analysis.inlayHints.functionReturnTypes": true,
+        "python.analysis.inlayHints.pytestParameters": true,
+        "python.analysis.inlayHints.variableTypes": true,
+        "python.analysis.pylanceLspClientEnabled": true,
+        "python.analysis.typeCheckingMode": "basic",
+        "python.languageServer": "Pylance",
+        "python.terminal.activateEnvInCurrentTerminal": true,
+        "shellcheck.disableVersionCheck": true,
+        "sqlite.sqlite3": "/usr/bin/sqlite3",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.enableMultiLinePasteWarning": false,
+        "vsintellicode.features.apiExamples": "enabled",
+        "vsintellicode.features.python.deepLearning": "enabled",
+        "window.commandCenter": true,
+        "window.title": "${dirty}${activeEditorShort}${separator}${activeEditorLong}${separator}${rootName}",
+        "workbench.colorTheme": "Dracula",
+        "workbench.editor.focusRecentEditorAfterClose": false,
+        "workbench.editor.restoreViewState": false,
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.settings.enableNaturalLanguageSearch": false,
+        "workbench.startupEditor": "none",
+        "workbench.tree.indent": 16,
+    },
+    
+
+}

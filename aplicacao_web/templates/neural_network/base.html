@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunta</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Bora!">
+    </form>
+
+
+    {% if question %}
+    <div>
+        <p>
+            Sua pergunta foi: <b>{{ question }}</b>
+        </p>
+        <p>
+            Ela é classificada como "{{ difficulty }}"
+        </p>
+    </div>
+    {% endif %}
+
+
+</body>
+</html>
